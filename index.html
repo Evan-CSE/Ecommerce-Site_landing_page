@@ -8,10 +8,308 @@
     <!-- Bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
     <title>Panda Commerce</title>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo" width="159" height="41">
+                </a>
+                <input class="ms-5 rounded-3 w-25" type="search" placeholder="Search" aria-label="Search">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Image Slider  -->
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide container my-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active b">
+                    <div class="row d-flex  align-items-center order border-5 rounded p-5"
+                        style="background-color: #FEEAE9;">
+                        <div class="col-12 col-md-7">
+                            <h1>
+                                MI LED TV 4A PRO 32
+                            </h1>
+                            <p>
+                                This is one of the cheapest tv you will ever buy.
+                            </p>
+                            <h1 style="color: #FF136F;">
+                                $1200
+                            </h1>
+                            <button class="btn btn-warning my-2" style="background-color: #FF136F;color: white;">
+                                Buy Now
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="HeadPhone">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex  align-items-center order border-5 rounded p-5"
+                        style="background-color: #FEEAE9;">
+                        <div class="col-12 col-md-7">
+                            <h1>
+                                X-Box for your living room
+                            </h1>
+                            <p>
+                                This is the best x-box in the world for people who just want to waste time in front of
+                                fake
+                                sports.</p>
+                            <h1 style="color: #FF136F;">
+                                $600
+                            </h1>
+                            <button class="btn btn-warning my-2" style="background-color: #FF136F;color: white;">
+                                Buy Now
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="HeadPhone">
+                        </div>
+                    </div>
+                    <!-- <img src="images/banner-images/headphone.png" class="d-block w-100" alt="Television"> -->
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex  align-items-center order border-5 rounded p-5"
+                        style="background-color: #FEEAE9;">
+                        <div class="col-12 col-md-7">
+                            <h1>
+                                Cool Dude Headphone
+                            </h1>
+                            <p>
+                                This is the best headphone in the world for people who just want to waste time in front
+                                of
+                                funky world
+                            </p>
+                            <h1 style="color: #FF136F;">
+                                $420
+                            </h1>
+                            <button class="btn btn-warning my-2" style="background-color: #FF136F;color: white;">
+                                Buy Now
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="HeadPhone">
+                        </div>
+                    </div>
+                    <!-- <img src="images/banner-images/xbox.png" class="d-block w-100" alt="xbox"> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Categories -->
+        <section class="container">
+            <h3>
+                Categories
+            </h3>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class=" d-flex align-items-center justify-content-between rounded-3 p-3"
+                        style="background:linear-gradient(#FF9C35,#FFD019)">
+                        <h2>
+                            Watch
+                        </h2>
+                        <img src="images/categories/watch.png" alt="Watch" width="60" height="90">
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class=" d-flex align-items-center justify-content-between rounded-3 p-3"
+                        style="background:linear-gradient(#FF589B,#FF136F)">
+                        <h2>
+                            Bag
+                        </h2>
+                        <img src="images/categories/bag.png" alt="Bag" width="60" height="90">
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class=" d-flex align-items-center justify-content-between rounded-3 p-3"
+                        style="background:linear-gradient(#4289FF,#3F07F8)">
+                        <h2>
+                            Shoes
+                        </h2>
+                        <img src="images/categories/shoes.png" alt="Shoes" width="60" height="90">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Shoes -->
+        <div class="container my-5">
+            <h2>
+                Shoes
+            </h2>
+            <div class="d-flex justify-content-between row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-lg" style="width: 20rem;">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="Shoe 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.
+                            </p>
+                            <h5>
+                                $1289
+                            </h5>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg" style="width: 18rem;">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="Shoe 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 360</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.
+                            </p>
+                            <h5>
+                                $799
+                            </h5>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg" style="width: 18rem;">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="Shoe 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Airmax</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.
+                            </p>
+                            <h5>
+                                $699
+                            </h5>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- BackPack Section  -->
+        <div class="container my-5">
+            <h2>
+                BackPack
+            </h2>
+            <div class="d-flex justify-content-between row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-lg" style="width: 20rem;">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="Shoe 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ison Backpack</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.
+                            </p>
+                            <h5>
+                                $1289
+                            </h5>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg" style="width: 18rem;">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="Shoe 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Biaowang Backpack</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.
+                            </p>
+                            <h5>
+                                $799
+                            </h5>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg" style="width: 18rem;">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="Shoe 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.
+                            </p>
+                            <h5>
+                                $699
+                            </h5>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Subscribe  -->
+        <section class="container  d-flex align-items-center justify-content-center"
+            style="height:400px;background-color: #FFF2F1;">
+            <div>
+                <h2>
+                    LET'S STAY IN TOUCH
+                </h2>
+                <p>
+                    Get updates on sales, specials and more
+                </p>
+                <input type="email" name="" id="" placeholder="Your mail">
+                <br> <br>
+                <button type="submit" style="background-color: tomato;">
+                    Submit
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="mt-5 container d-flex justify-content-center">
+            <p><small>
+                    ©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+                </small></p>
+        </div>
+    </footer>
     <!-- bootstrap js script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
